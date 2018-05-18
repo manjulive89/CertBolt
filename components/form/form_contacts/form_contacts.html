@@ -1,0 +1,36 @@
+<form action="" class="form form_contacts" autocomplete="on">
+    <h5 class="form__header fs_28">Please fill out your information below and Testking License Program Manager will get back to you with best solution according to your requirements:</h5>
+    <div class="form__fieldset">
+        <label class="form__label">
+            <input class="form__input form_contacts__input" id="contactName" type="text" placeholder="Contact Name *" required> </label>
+        <label class="form__label">
+            <input class="form__input form_contacts__input" id="companyName" type="text" placeholder="Company"> </label>
+        <label class="form__label">
+            <input class="form__input form_contacts__input" id="email" type="email" placeholder="Email Address *" required> </label>
+        <label class="form__label">
+            <input class="form__input form_contacts__input" id="phone" type="text" placeholder="Web Site URL"> </label>
+        <label class="form__label">
+            <input class="form__input form_contacts__input" id="phoneNumber" type="tel" placeholder="Valid Phone Number *" required> </label>
+        <label class="form__label">
+            <select class="form__select form_contacts__select" id="country" required>
+                <option disabled selected>Select Country *</option>
+                <option value="br">Belarus</option>
+                <option value="br">Belarus</option>
+                <option value="br">Belarus</option>
+            </select>
+        </label>
+    </div>
+    <h5 class="form__header fs_28">Tell us about your requirements:</h5>
+    <div class="form__fieldset">
+        <textarea rows="6" class="form__textarea form_contacts__textarea" id="comments" placeholder="Comments"></textarea>
+        <label class="form__label">
+            <div class="flex flex_wrap">
+                <input class="form__input form_contacts__input form_contacts__input_security" id="securityCode" type="text" placeholder="Security Code *" required> <span class="security-code-img" id="securityCodeImg">
+                <img src="components/common/imgs/content/securityCode/aphgiasdjf.png">
+            </span> </div>
+            <div><small>Please enter security code exactly as shown</small></div>
+            <button class="btn btn_submit form_contacts__btn">Submit</button>
+        </label>
+        <label class="form__label txt_right"> <p>Mandatory Fields*</p> </label>
+    </div>
+</form>

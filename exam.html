@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="#" />
+    <title>{Exam Name}</title>
+
+    <link rel="stylesheet" href="components/common/css/grid.css">
+    <link rel="stylesheet" href="components/common/css/style.css">
+    <link rel="stylesheet" href="components/common/css/fonts.css">
+    <link rel="stylesheet" href="components/common/css/slick.css">
+    <link rel="stylesheet" href="components/common/css/slick-theme.css">
+    <script defer src="components/common/js/templateLoader.js"></script>
+    <script defer src="components/common/js/jquery-3.3.1.min.js"></script>
+    <script defer src="components/common/js/slick.js"></script>
+</head>
+
+<body>
+    <templ src="components/header/header.html"></templ>
+    <div class="nav-wrapper js-mobile-menu">
+        <div class="container">
+            <templ src="components/nav/nav.html"></templ>
+            <templ src="components/user-menu/user-menu.html"></templ>
+        </div>
+    </div>
+    <templ src="components/breadcrumbs/breadcrumbs.html"></templ>
+    <div class="content container">
+        <main class="main main__exam">
+            <templ src="components/form/form_exams/form_exams.html"></templ>
+            <templ src="components/week-results/week-results.html"></templ>
+            <templ src="components/purchase-individually/purchase-individually.html"></templ>
+        </main>
+    </div>
+    <templ src="components/footer/footer.html"></templ>
+
+    <!--    <templ src="components/popup/popup.html"></templ>-->
+
+
+</body>
+
+</html>

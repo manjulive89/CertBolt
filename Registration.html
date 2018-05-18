@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="#" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="components/common/css/grid.css">
+    <link rel="stylesheet" href="components/common/css/style.css">
+    <link rel="stylesheet" href="components/common/css/fonts.css">
+    <link rel="stylesheet" href="components/common/css/slick.css">
+    <link rel="stylesheet" href="components/common/css/slick-theme.css">
+    <script defer src="components/common/js/templateLoader.js"></script>
+    <script defer src="components/common/js/jquery-3.3.1.min.js"></script>
+    <script defer src="components/common/js/slick.js"></script>
+</head>
+
+<body>
+    <templ src="components/header/header.html"></templ>
+    <div class="nav-wrapper js-mobile-menu">
+        <div class="container">
+            <templ src="components/nav/nav.html"></templ>
+            <templ src="components/user-menu/user-menu.html"></templ>
+        </div>
+    </div>
+    <templ src="components/breadcrumbs/breadcrumbs.html"></templ>
+    <div class="content container">
+        <main class="main main_registration"> 
+            <div class="form-wrapper">
+                <templ src="components/form/form_registration/form_registration.html"></templ>
+                <p class="form__comment">Please check your email once you have filled out the form. Within a few minutes, you will receive the confirmation email from <a href="mailto:support@examcollection.com" class="txt_blue">support@examcollection.com</a>. If you do not see it in your inbox, be sure to check your Spam or Junk folders.</p>
+            </div>  
+        </main>
+<!--
+        <aside class="sidebar sidebar_right">
+            <templ src="components/money-back/money-back.html"></templ>  
+        </aside>
+-->
+    </div>
+    <templ src="components/footer/footer.html"></templ>
+
+</body>
+
+</html>

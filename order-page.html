@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="#" />
+    <title>Order page</title>
+    <link rel="stylesheet" href="components/common/css/grid.css">
+    <link rel="stylesheet" href="components/common/css/style.css">
+    <link rel="stylesheet" href="components/common/css/fonts.css">
+    <link rel="stylesheet" href="components/common/css/slick.css">
+    <link rel="stylesheet" href="components/common/css/slick-theme.css">
+    <script defer src="components/common/js/templateLoader.js"></script>
+    <script defer src="components/common/js/jquery-3.3.1.min.js"></script>
+    <script defer src="components/common/js/slick.js"></script>
+</head>
+
+<body>
+    <templ src="components/header/header.html"></templ>
+    <div class="nav-wrapper js-mobile-menu">
+        <div class="container">
+            <templ src="components/nav/nav.html"></templ>
+            <templ src="components/user-menu/user-menu.html"></templ>
+        </div>
+    </div>
+    <templ src="components/breadcrumbs/breadcrumbs.html"></templ>
+    <div class="content container">
+        <main class="main main_orders"> 
+            <h1>Fast & Secure, One Step Checkout</h1>
+            <p>Your Products will be made Available Immediately After Purchase</p> 
+            <templ src="components/form/form_order/form_order.html"></templ> 
+        </main>
+        <aside class="sidebar sidebar_right">
+            <templ src="components/money-back/money-back.html"></templ>
+            <templ src="components/satisfied-customers/satisfied-customers.html"></templ>
+            <templ src="components/customers-feedbacks/customers-feedbacks.html"></templ>
+            <templ src="components/contact-us/contact-us.html"></templ>
+        </aside>
+    </div>
+    <templ src="components/footer/footer.html"></templ>
+</body> 
+</html>

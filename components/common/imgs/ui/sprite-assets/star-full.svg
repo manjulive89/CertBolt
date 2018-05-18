@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="31" viewBox="0 0 32 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="468.051" y1="44" x2="485.949" y2="13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef8210"/>
+      <stop offset="0.178" stop-color="#f29218"/>
+      <stop offset="0.485" stop-color="#f6ab2b"/>
+      <stop offset="0.765" stop-color="#fec255"/>
+      <stop offset="1" stop-color="#ffd379"/>
+    </linearGradient>
+  </defs>
+  <path id="star-full.svg" class="cls-1" d="M477,13l5.273,9.742L493,24.841l-7.466,8.119L486.887,44,477,39.275,467.112,44l1.356-11.038L461,24.841l10.725-2.1L477,13" transform="translate(-461 -13)"/>
+</svg>

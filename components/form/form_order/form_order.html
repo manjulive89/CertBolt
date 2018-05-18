@@ -1,0 +1,161 @@
+<form action="#" class="form form_order" autocomplete="on">
+    <h5 class="form__header">Review your order:</h5>
+    <p>The following items have been added to your shopping cart.</p> <small class="txt_blue"><b><a href="#">Need help with your purchase?</a></b></small>
+    <table class="table table_orders">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Item Description</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td class="discount" colspan="5">
+                    <div class="flex flex_end"> <span>Promotion Code:</span>
+                        <input class="form__input table__input" type="text">
+                        <button class="btn btn_apply-discount" type="button">Apply</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="total-price" colspan="5"> Total: <span id="totalPrice">$124.99</span> </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="product">
+                <td class="product__number">1.</td>
+                <td class="product__name"> <a class="txt_blue" href="#">Apple MAC-16A Questions & Answers</a>
+                    <div><small class="txt_orange">$12.50 Instant Discount</small></div>
+                </td>
+                <td class="product__value">
+                    <div class="select-wrapper">
+                        <select class="form__select" name="#" id="valComputers">
+                            <option value="1">1 Computers</option>
+                            <option value="2">2 Computers</option>
+                            <option value="3">3 Computers</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="product__price"> $184.99 </td>
+                <td class="product__remove">
+                    <button class="btn btn_small btn_not-active"  type="button">Remove</button>
+                </td>
+            </tr>
+            <tr class="product">
+                <td class="product__number">1.</td>
+                <td class="product__name"> <a class="txt_blue" href="#">Apple MAC-16A Questions & Answers</a>
+                    <div><small class="txt_orange">$12.50 Instant Discount</small></div>
+                </td>
+                <td class="product__value">
+                    <div class="select-wrapper">
+                        <select class="form__select" name="#" id="valComputers">
+                            <option value="1">1 Computers</option>
+                            <option value="2">2 Computers</option>
+                            <option value="3">3 Computers</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="product__price"> $184.99 </td>
+                <td class="product__remove">
+                    <button class="btn btn_small btn_not-active" type="button">Remove</button>
+                </td>
+            </tr>
+            <tr class="product">
+                <td class="product__number">1.</td>
+                <td class="product__name"> <a class="txt_blue" href="#">Apple MAC-16A Questions & Answers</a>
+                    <div><small class="txt_orange">$12.50 Instant Discount</small></div>
+                </td>
+                <td class="product__value">
+                    <div class="select-wrapper">
+                        <select class="form__select" name="#" id="valComputers">
+                            <option value="1">1 Computers</option>
+                            <option value="2">2 Computers</option>
+                            <option value="3">3 Computers</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="product__price"> $184.99 </td>
+                <td class="product__remove">
+                    <button class="btn btn_small btn_not-active" type="button">Remove</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>* In order to avoid duplicate orders only 1 copy of each product can be purchased. If you are interested in multiple copies please contact <a class="txt_blue" href="mailto:sales@testking.com">sales@testking.com</a>.</p>
+    <h5 class="form__header">Billing Address:</h5>
+    <div class="form__fieldset">
+        <label class="form__label">
+            <input class="form__input form_order__input" id="firstName" type="text" placeholder="First Name On Card" required> </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="lastName" type="text" placeholder="Last Name On Card" required> </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="address" type="text" placeholder="Address" required> </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="city" type="text" placeholder="City" required> </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="stateProvince" type="text" placeholder="State/Province" required> </label>
+        <label class="form__label">
+            <select class="form__select form_order__select" id="country" required>
+                <option disabled selected>Please Choose Your Country</option>
+                <option value="br">Belarus</option>
+                <option value="br">Belarus</option>
+            </select>
+        </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="zipPostal" type="text" placeholder="Zip/Postal" required> </label>
+        <label class="form__label">
+            <input class="form__input form_order__input" id="email" type="email" placeholder="Email Address" required> </label>
+        <label class="form__label block_grow">
+            <input class="form__input form_order__input" id="phoneNumber" type="tel" placeholder="Phone" required> </label>
+    </div>
+    <h5 class="form__header">Billing Details</h5>
+    <div class="form__fieldset">
+        <label class="form__label block_grow">
+            <input class="form__input form_order__input" id="cardNumber" type="number" placeholder="Card Number" pattern="\d" required> </label>
+        <label class="form__label">
+            <select class="form__select form_order__select" id="country" required>
+                <option disabled selected>Select Card Type</option>
+                <option value="#">Visa</option>
+                <option value="#">Visa</option>
+                <option value="#">Visa</option>
+                <option value="#">Visa</option>
+            </select>
+        </label>
+        <label class="form__label form_order__label_cvv">
+            <input class="form__input form_order__input form_order__input_cvv" id="cvv" type="number" placeholder="Security Code (CVV)" required> <img src="img/ui/card.png" alt="Card CVV">
+            <p><a href="#" class="">What is this?</a></p>
+        </label>
+        <div class="expiration-date">Expiration Date</div>
+        <label class="form__label form_order__label_expiration-date-month">
+            <select class="form__select form_order__select" id="expirationDateMonth" required>
+                <option value="#">01</option>
+                <option value="#">02</option>
+                <option value="#">03</option>
+                <option value="#">04</option>
+            </select>
+        </label>
+        <label class="form__label form_order__label_expiration-date-year">
+            <select class="form__select form_order__select" id="expirationDateYear" required>
+                <option value="#">18</option>
+                <option value="#">19</option>
+                <option value="#">20</option>
+            </select>
+        </label>
+        <label class="form__label form_order__label_security-info"><img src="img/ui/sidebar/cards.svg"><img src="img/ui/sidebar/mcafee.png"> </label>
+        <label class="form__label">
+            <button class="btn btn_pay" type="button">Pay Now</button>
+        </label>
+        <label class="form__label">
+            <p>Your purchase with Testking is safe and fast. Your products will be available for immediate download after your payment has been received.</p>
+            <p>Testking website is protected by 256-bit SSL from McAfee, the leader in online security.</p>
+        </label>
+        <label class="form__label">
+            <p>* All fields are mandatory</p>
+            <p>* Please wait for up-to 1 minute after clicking Pay Now</p>
+            <p>Note: CertBolt is owned by Certification Trendz Ltd. The charges on your Credit/Debit Card Statement will appear as paid to Certification Trendz Ltd.</p>
+        </label>
+    </div>
+</form>
