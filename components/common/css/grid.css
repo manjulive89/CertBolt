@@ -24,7 +24,7 @@ body {
   margin: auto;
 }
 .main {
-  padding: 0 20px;
+  padding: 0 20px 30px;
   flex-grow: 1;
   max-width: 100%;
   flex-basis: 100%;

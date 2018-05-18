@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="#" />
+    <title>{Vendor Name}</title>
+    <link rel="stylesheet" href="components/common/css/grid.css">
+    <link rel="stylesheet" href="components/common/css/style.css">
+    <link rel="stylesheet" href="components/common/css/fonts.css">
+    <link rel="stylesheet" href="components/common/css/slick.css">
+    <link rel="stylesheet" href="components/common/css/slick-theme.css">
+    <script defer src="components/common/js/templateLoader.js"></script>
+    <script defer src="components/common/js/jquery-3.3.1.min.js"></script>
+    <script defer src="components/common/js/slick.js"></script>
+</head>
+
+<body>
+    <templ src="components/header/header.html"></templ>
+    <div class="nav-wrapper js-mobile-menu">
+        <div class="container">
+            <templ src="components/nav/nav.html"></templ>
+            <templ src="components/user-menu/user-menu.html"></templ>
+        </div>
+    </div>
+    <templ src="components/breadcrumbs/breadcrumbs.html"></templ>
+    <div class="content container">
+        <main class="main main_vendor">
+            <div class="about clearfix">
+                <div class="img-wrapper alignleft"><img src="components/common/imgs/content/enterprise.png" alt="Testking License Program"></div>
+                <h1>Pass your Microsoft Exams Easily - GUARANTEED!</h1>
+                <p>Get Microsoft Certified With Testking Training Materials</p>
+                <p>Prepare your Microsoft certification exams with real Microsoft Questions & Answers verified by experienced Microsoft professionals! Testking makes your Microsoft certification journey easier as Testking provides you with learning materials to help you pass your exams from the first try. Professionally researched by Microsoft Certified Trainers, our Microsoft preparation materials contribute to industry's highest 99,6% pass rate among our customers. Just like all our exams, Microsoft exams come with our 100% Satisfaction Guarantee.</p>
+            </div>
+            <templ src="components/week-results/week-results.html"></templ>
+            <div class="tabs">
+                <input id="tab1" type="radio" name="tabs" checked>
+                <input id="tab2" type="radio" name="tabs">
+                <input id="tab3" type="radio" name="tabs">
+                <section class="tabs__wrapper">
+                    <label class="tab" for="tab1"><span>Browse By Technology</span></label>
+                    <label class="tab" for="tab2"><span>Browse By Certification</span></label>
+                    <label class="tab" for="tab3"><span>Microsoft Exams</span></label>
+                </section>
+                <section class="tabs__content">
+                    <div class="tabs__content-item tab-content-1 white-block">
+                        <h2 class="complete-vendor-list__header">Server</h2>
+                        <hr>
+                        <h4 class="txt_blue">Windows Server</h4>
+                        <ul class="complete-vendor-list__vendors">
+                            <li><a href="#"><strong>Associate Level</strong></a>
+                                <ul class="complete-vendor-list__vendor-exams">
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><strong>Entry Level</strong></a>
+                                <ul class="complete-vendor-list__vendor-exams">
+                                    <li><a href="#">MTA: IT Infrastructure</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h4 class="txt_blue">Azure</h4>
+                        <ul class="complete-vendor-list__vendors">
+                            <li><a href="#"><strong>Microsoft Specialist: Microsoft Azure</strong></a></li>
+                        </ul>
+                        <h2 class="complete-vendor-list__header">Desktop</h2>
+                        <hr>
+                        <h4 class="txt_blue">Windows Server</h4>
+                        <ul class="complete-vendor-list__vendors">
+                            <li><a href="#"><strong>Associate Level</strong></a>
+                                <ul class="complete-vendor-list__vendor-exams">
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                    <li><a href="#">MCSA: Windows Server 2008</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><strong>Entry Level</strong></a>
+                                <ul class="complete-vendor-list__vendor-exams">
+                                    <li><a href="#">MTA: IT Infrastructure</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h4 class="txt_blue">Azure</h4>
+                        <ul class="complete-vendor-list__vendors">
+                            <li><a href="#"><strong>Microsoft Specialist: Microsoft Azure</strong></a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs__content-item tab-content-2 white-block">Tab 2 content</div>
+                    <div class="tabs__content-item tab-content-3 white-block">Tab 3 content</div>
+                </section>
+            </div>
+        </main>
+        <aside class="sidebar sidebar_right">
+            <templ src="components/satisfied-customers/satisfied-customers.html"></templ>   
+<!--            <templ src="components/customers-feedbacks/customers-feedbacks.html"></templ>-->
+            <templ src="components/valuable-customers/valuable-customers.html"></templ>
+            <templ src="components/secure-shopping/secure-shopping.html"></templ>
+            <templ src="components/contact-us/contact-us.html"></templ>
+        </aside>
+    </div>
+    <templ src="components/footer/footer.html"></templ>
+</body>
+
+</html>

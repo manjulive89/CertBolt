@@ -27,8 +27,6 @@
     <templ src="components/breadcrumbs/breadcrumbs.html"></templ>
     <div class="content container">
         <main class="main main__single-product">
-
-
             <div class="about about_product">
                 <div><strong>Certification: </strong><span>VCP7-CMA</span></div>
                 <div><strong>Certification Full Name: </strong><span>VMware Certified Professional 7 - Cloud Management and Automation</span></div>
@@ -36,61 +34,8 @@
                 <div><strong>Exam Code: </strong><span>2V0-731</span></div>
             </div>
             <hr>
-            <form class="product-info">
-                <figure class="figure">
-                    <img src="img/content/slider-products/item1/product-pgoto1.png" alt="#">
-                    <a href="#" class="figcaption">
-                        <i class="icon-view-all"></i> Download Demo
-                    </a>
-                </figure>
-                <article class="">
-                    <h1 class="fs_48">Pass VCP7-CMA Certification Exams Fast</h1>
-                    <p class="fs_20">VCP7-CMA Practice Exam Questions, Verified Answers - Pass Your Exams For Sure!</p>
-                    <p class="txt_blue fs_22"><strong>91 Questions and Answers with Testing Engine </strong></p>
-                    <p class="fs_20">The ultimate exam preparation tool, 2V0-731 practice questions and answers cover all topics and technologies of 2V0-731 exam allowing you to get prepared and then pass exam.</p>
-
-                    <p class="fs_16">
-
-                        <label for="pdfVersion">
-                        <input class="checkbox-input" type="checkbox" id="pdfVersion" style="display: none;">
-                        <span class="checkbox"><i class="icon-check-list"></i></span>
-                        <strong>PDF Version of Questions & Answers with Explanations ( + $44.90)</strong>
-                        <a class="details" href="#">Details <i class="icon-angle-right-1"></i></a>
-                        </label>
-                    </p>
-                    <div class="about_product__price txt_right">
-                        <div class="about_product__price_was">
-                            Was: <del>$224.99</del>
-                        </div>
-                        <div class="about_product__price_now">
-                            Now: <span>$202.49</span>
-                        </div>
-                        <button class="btn" type="button">Add to cart</button>
-                    </div>
-                </article>
-
-            </form>
-
-            <div class="week-results">
-
-                <h2 class="week-results__header">Last Week Results!</h2>
-                <div class="week-results__wrapper">
-
-                    <div class="week-results__item">
-                        <div class="txt_blue fs_48"><strong>365</strong></div>
-                        <p>Customers Passed CompTIA N10-006 Exam</p>
-                    </div>
-                    <div class="week-results__item">
-                        <div class="txt_blue fs_48"><strong>98.7%</strong></div>
-                        <p>Average Score In Real Exam At Testing Centre</p>
-                    </div>
-                    <div class="week-results__item">
-                        <div class="txt_blue fs_48"><strong>93%</strong></div>
-                        <p>Questions came word for word from this dump</p>
-                    </div>
-
-                </div>
-            </div>
+            <templ src="components/form/form_product-info/form_product-info.html"></templ>
+            <templ src="components/week-results/week-results.html"></templ>
             <div class="tabs">
                 <input id="tab1" type="radio" name="tabs" checked>
                 <input id="tab2" type="radio" name="tabs">
@@ -103,24 +48,7 @@
                 <section class="tabs__content">
                     <div class="tabs__content-item tab-content-1 white-block">
                         <h2 class="fs_36">Product Screenshots</h2>
-                        <div class="slider slider_product">
-                            <figure class="slider__item slider_product__item slider_product__item">
-                                <img src="img/content/slider-products/item1/1.png" alt="Testking Testing-Engine">
-                                <figcaption class="figcaption">Testking Testing-Engine Sample (1)</figcaption>
-                            </figure>
-                            <figure class="slider__item slider_product__item slider_product__item">
-                                <img src="img/content/slider-products/item1/1.png" alt="Testking Testing-Engine">
-                                <figcaption class="figcaption">Testking Testing-Engine Sample (2)</figcaption>
-                            </figure>
-                            <figure class="slider__item slider_product__item slider_product__item">
-                                <img src="img/content/slider-products/item1/1.png" alt="Testking Testing-Engine">
-                                <figcaption class="figcaption">Testking Testing-Engine Sample (3)</figcaption>
-                            </figure>
-                            <figure class="slider__item slider_product__item slider_product__item">
-                                <img src="img/content/slider-products/item1/1.png" alt="Testking Testing-Engine">
-                                <figcaption class="figcaption">Testking Testing-Engine Sample (4)</figcaption>
-                            </figure>
-                        </div> 
+                        <templ src="components/slider/slider_product/slider_product.html"></templ>
                     </div>
                     <div class="tabs__content-item tab-content-2 white-block">Tab 2 content</div>
                     <div class="tabs__content-item tab-content-3 white-block">Tab 3 content</div>
@@ -129,7 +57,6 @@
         </main>
     </div>
     <templ src="components/footer/footer.html"></templ>
-
 </body>
 
 </html>
